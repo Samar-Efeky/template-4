@@ -1,0 +1,101 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Nav-bar ...............................................................................................*/
+.nav-item a{
+    color: whitesmoke;
+}
+.nav-item a:hover,
+.nav-item a:focus,
+.navbar-brand:hover,
+.navbar-brand:focus{
+    color: rgb(255, 200, 0);
+}
+.navbar-brand{
+    color: rgb(255, 200, 0);
+}
+/* Header  ......................................................................................*/
+.header-img{
+    background-image: url(../images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.overley{
+    background-color: rgba(0,0,0,0.4);
+}
+.header-content h2{
+    font-size: 40px;
+}
+.header-content p{
+    font-size: 50px;
+}
+.header-content button{
+    background-color: rgb(255, 200, 0);
+}
+.header-content button:hover{
+    background-color: rgba(255, 200, 0,0.6);
+}
+/* Section Services .................................................................................*/
+.service-icon{
+    background-color:rgb(255, 200, 0) ;
+}
+/* Section Portfolio ...........................................................................*/
+#Portfolio{
+    background-color: rgb(245, 245, 245);
+}
+.portfolio-img{
+    position: relative;
+}
+.portfolio-img::after{
+    content: "";
+    background-color: rgba(255, 200, 0,0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+}    
+.portfolio-img:hover::after{
+    visibility: visible;
+    transition: 0.2s;
+}
+/* Team ..............................................................................................*/
+#team{
+    background-color: rgb(245, 245, 245); 
+}
+.item-team div img{
+    border: 7px solid rgb(168, 168, 168);
+}
+.item-team a i{
+    background-color: black;
+}
+a i{
+    background-color:rgb(255, 200, 0) ;
+}
+.item-team a i:hover,a i:hover,button:hover{
+    background-color:rgba(255, 200, 0,0.6) ;
+    transition: 0.3s;
+}
+.social-media{
+    color: rgb(177, 177, 177);
+}
+.social-media span{
+    font-size: 45px;
+    font-weight:bold;
+}
+/* footer ...............................................................................................*/
+footer{
+    background-image: url(../images/map-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+input::placeholder,textarea::placeholder{
+    color: black;
+    font-weight: bold;
+}
+button{
+    background-color:rgb(255, 200, 0);
+}
